@@ -24,25 +24,25 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 Enable service:
 
-sudo systemctl enable ollama
-sudo systemctl start ollama
+  sudo systemctl enable ollama
+  sudo systemctl start ollama
 
 Test:
 
-curl http://127.0.0.1:11434/api/tags
+  curl http://127.0.0.1:11434/api/tags
 2. Install AI models
-ollama pull qwen2.5:3b-instruct
-ollama pull llama3
+   ollama pull qwen2.5:3b-instruct
+  ollama pull llama3
 
 Test:
 
-ollama run qwen2.5:3b-instruct
+  ollama run qwen2.5:3b-instruct
 3. Install Docker
-curl -fsSL https://get.docker.com | sh
-sudo systemctl enable docker
-sudo systemctl start docker
+  curl -fsSL https://get.docker.com | sh
+  sudo systemctl enable docker
+  sudo systemctl start docker
 4. Run Open WebUI
-sudo docker run -d \
+  sudo docker run -d \
   --name open-webui \
   --restart unless-stopped \
   --network=host \
