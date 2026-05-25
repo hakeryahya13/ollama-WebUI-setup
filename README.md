@@ -23,7 +23,7 @@ After setup you can:
 ## 🧰 Requirements (All systems)
 
 - 📡 Internet connection (first install only)
-- 💾 At least 6 GB RAM (recommended 8+ GB)
+- 💾 At least 4 GB RAM (recommended 8+ GB)
 - 🐳 Docker (for WebUI)
 - 🧠 Ollama (for AI models)
 
